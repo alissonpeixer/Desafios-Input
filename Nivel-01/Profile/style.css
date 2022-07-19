@@ -1,0 +1,61 @@
+:root {
+  --black: #18161f;
+  --white: #ffffff;
+}
+
+html, body{
+  height: 100vh;
+  
+  background-color: #403d4f;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.main-center{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 730px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-container{
+  display: flex;
+  align-items: center;
+  padding: 4px 44px 0 24px;
+  background: var(--white);
+  border-radius: 16px;
+  width: 300px;
+  height: 88px;
+}
+
+.profile-info{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4px;
+}
+
+
+.pic{
+  padding-right: 22px;
+}
+
+
+
+.profile-name{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.profile-curso{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}

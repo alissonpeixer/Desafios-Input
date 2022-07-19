@@ -1,0 +1,109 @@
+:root {
+  --black: #18161f;
+  --white: #ffffff;
+  --gray: #403d4f;
+  --text-gray: #838383
+}
+
+html, body{
+  height: 100vh;
+  
+  background-color: #403d4f;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.main-container{
+  display: flex;  
+  justify-content: center;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card-container{
+  padding: 25px 25px 0 25px; 
+
+  
+}
+
+.car-img{
+  background: url(./img/img.png);
+  width: 320px;
+  height: 200px;
+}
+
+.card-info{
+  width: 320px;
+  height: 232px;
+  max-width: 320px;
+  background: #FFFFFF;
+
+
+  border-radius: 0px 0px 32px 32px;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.card-info-user{
+  display: flex;
+
+  flex-direction: column;
+  
+  padding-top: 15px;
+
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.info--user{
+  display: flex;
+  align-items: center;
+}
+
+.card-profile-pic{
+  padding-right: 15px;
+}
+.text-gray{
+  color: var(--text-gray);
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+
+ 
+}
+
+.card-comment{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55px;
+  
+  color: var(--text-gray);
+}
+
+.card-viwe{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 55px;
+  
+  color: var(--text-gray);
+}
